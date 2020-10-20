@@ -5,6 +5,6 @@ public class WorkingApp {
         PartTimeMentor partTime = new PartTimeMentor();
 
         Mentor mentor = new Mentor(fullTime,partTime);
-        mentor.managerAccount();
+        mentor.manageAccount();
     }
 }

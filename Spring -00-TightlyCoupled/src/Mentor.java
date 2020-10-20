@@ -8,7 +8,7 @@ public class Mentor {
         this.partTimeMentor = partTimeMentor;
     }
 
-    public void managerAccount(){
+    public void manageAccount(){
         fullTimeMentor.createAccount();
         partTimeMentor.createAccount();
     }
